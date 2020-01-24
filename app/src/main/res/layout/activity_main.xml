@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.screen.main.MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTV"
+        android:layout_width="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnSearch"
+        android:layout_height="@dimen/margin60"
+        android:hint="@string/label_search"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        app:layout_constraintTop_toTopOf="@id/autoCompleteTV"
+        android:padding="@dimen/margin10"
+        app:layout_constraintBottom_toBottomOf="@id/autoCompleteTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        style="@style/BlueButtonTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/autoCompleteTV" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

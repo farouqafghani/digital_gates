@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="trans">#00ffffff</color>
+    <!--Black-->
+    <color name="black">#000000</color>
+    <color name="trans_black_10">#E6000000</color>
+    <color name="trans_black_30">#B3000000</color>
+    <color name="trans_black_50">#80000000</color>
+    <color name="trans_black_70">#4D000000</color>
+    <color name="trans_black_80">#33000000</color>
+    <color name="trans_black_90">#19000000</color>
+    <!--White-->
+    <color name="white">#ffffff</color>
+    <color name="trans_white_10">#e5ffffff</color>
+    <color name="trans_white_30">#B3FFFFFF</color>
+    <color name="trans_white_50">#80FFFFFF</color>
+    <color name="trans_white_70">#4DFFFFFF</color>
+    <color name="trans_white_90">#19ffffff</color>
+    <!--gray-->
+    <color name="gray_light_0">#F0F0F0</color>
+    <color name="gray_light_1">#e1e1e1</color>
+    <color name="gray_light_2">#aeaeae</color>
+    <color name="gray_normal">#808080</color>
+    <color name="gray_dark_1">#565656</color>
+    <color name="gray_dark_2">#2b2b2b</color>
+    <color name="gray_dark_3">#2c2d2c</color>
+    <!--blue-->
+    <color name="blue_A100">#82b1ff</color>
+    <color name="blue_A200">#448aff</color>
+    <color name="blue_A400">#2979ff</color>
+    <color name="blue_A700">#2962ff</color>
+    <!--Green-->
+    <color name="green_A100">#b9f6ca</color>
+    <color name="green_A200">#69f0ae</color>
+    <color name="green_A400">#00e676</color>
+    <color name="green_A700">#00c853</color>
+
+</resources>
